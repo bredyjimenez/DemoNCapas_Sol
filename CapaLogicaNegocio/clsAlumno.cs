@@ -87,5 +87,28 @@ namespace CapaLogicaNegocio
             }
             return Mensaje;
         }
+
+        public String ActualizarAlumnos()
+        {
+            List<clsParametro> lst = new List<clsParametro>();
+            String Mensaje = "";
+            try
+            {
+                lst.Add(new clsParametro("@Dni", m_Dni));
+                lst.Add(new clsParametro("@Apellidos", m_Apellidos));
+                lst.Add(new clsParametro("@Nombres", m_Nombre));
+                lst.Add(new clsParametro("@Sexo", m_Sexo));
+                lst.Add(new clsParametro("@FechaNac", m_FechaNac));
+                lst.Add(new clsParametro("@Direccion", m_Direccion));
+                lst.Add(new clsParametro("@Mensaje", "", SqlDbType.VarChar, ParameterDirection.Output, 100));
+                M.EjecutarSP("ActualizarAlumnos", ref lst);
+                lst[6].Valor.ToString();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return Mensaje;
+        }
     }
 }

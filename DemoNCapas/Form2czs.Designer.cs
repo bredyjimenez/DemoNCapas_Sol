@@ -43,6 +43,7 @@
             this.rdMasculino = new System.Windows.Forms.RadioButton();
             this.rdFemenino = new System.Windows.Forms.RadioButton();
             this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
+            this.btnActualizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -194,11 +195,23 @@
             this.dtpFechaNac.Size = new System.Drawing.Size(527, 38);
             this.dtpFechaNac.TabIndex = 16;
             // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(335, 558);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(200, 55);
+            this.btnActualizar.TabIndex = 17;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
             // FrmRegistrarAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(893, 680);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dtpFechaNac);
             this.Controls.Add(this.rdFemenino);
             this.Controls.Add(this.rdMasculino);
@@ -239,5 +252,6 @@
         private System.Windows.Forms.RadioButton rdMasculino;
         private System.Windows.Forms.RadioButton rdFemenino;
         private System.Windows.Forms.DateTimePicker dtpFechaNac;
+        private System.Windows.Forms.Button btnActualizar;
     }
 }
