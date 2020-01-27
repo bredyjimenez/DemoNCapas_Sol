@@ -52,5 +52,12 @@ namespace DemoNCapas
             txtDireccion.Clear();
             txtDni.Focus();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Alu.Dni = txtDni.Text;
+            MessageBox.Show(Alu.EliminarAlumnos(), "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Limpiar();
+        }
     }
 }

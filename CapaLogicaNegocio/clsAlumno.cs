@@ -110,5 +110,23 @@ namespace CapaLogicaNegocio
             }
             return Mensaje;
         }
+
+        public String EliminarAlumnos()
+        {
+            List<clsParametro> lst = new List<clsParametro>();
+            String Mensaje = "";
+            try
+            {
+                lst.Add(new clsParametro("@Dni", m_Dni));
+                lst.Add(new clsParametro("@Mensaje", "", SqlDbType.VarChar, ParameterDirection.Output, 100));
+                M.EjecutarSP("EliminarAlumnos", ref lst);
+                Mensaje = lst[1].Valor.ToString();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return Mensaje;
+        }
     }
 }
