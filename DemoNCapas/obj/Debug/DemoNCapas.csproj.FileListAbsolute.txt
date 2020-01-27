@@ -13,3 +13,18 @@ D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csprojAssemblyReference.cache
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csproj.CopyComplete
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.Form2.resources
+F:\DemoNCapas_Sol\DemoNCapas\bin\Debug\DemoNCapas.exe.config
+F:\DemoNCapas_Sol\DemoNCapas\bin\Debug\DemoNCapas.exe
+F:\DemoNCapas_Sol\DemoNCapas\bin\Debug\DemoNCapas.pdb
+F:\DemoNCapas_Sol\DemoNCapas\bin\Debug\CapaLogicaNegocio.dll
+F:\DemoNCapas_Sol\DemoNCapas\bin\Debug\CapaEnlaceDatos.dll
+F:\DemoNCapas_Sol\DemoNCapas\bin\Debug\CapaLogicaNegocio.pdb
+F:\DemoNCapas_Sol\DemoNCapas\bin\Debug\CapaEnlaceDatos.pdb
+F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csprojAssemblyReference.cache
+F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.Form1.resources
+F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.Form2.resources
+F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.Properties.Resources.resources
+F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csproj.GenerateResource.cache
+F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csproj.CopyComplete
+F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.exe
+F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.pdb

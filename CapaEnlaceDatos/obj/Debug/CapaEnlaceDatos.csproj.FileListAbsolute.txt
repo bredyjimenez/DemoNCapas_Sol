@@ -3,3 +3,8 @@ D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojAssemblyReference.cache
+F:\DemoNCapas_Sol\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.dll
+F:\DemoNCapas_Sol\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
+F:\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojAssemblyReference.cache
+F:\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
+F:\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb

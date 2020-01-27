@@ -26,42 +26,36 @@ namespace CapaLogicaNegocio
             get { return m_Dni; }
             set { m_Dni = value; }
         }
-
         public String Apellidos
         {
             get { return m_Apellidos; }
             set { m_Apellidos = value; }
         }
-
         public String Nombres
         {
             get { return m_Nombre; }
             set { m_Nombre = value; } 
         }
-
         public Char Sexo
         {
             get { return m_Sexo; }
             set { m_Sexo = value; }
         }
-
         public DateTime FechaNacimiento
         {
             get { return m_FechaNac; }
             set { m_FechaNac = value; }
         }
-
         public string Direccion
         {
             get { return m_Direccion; }
             set { m_Direccion = value; }
         }
-
         public DataTable Listado()
         {
             return M.Listado("ListarAlumnos", null);
         }
-
+        
         public String RegistrarAlumnos()
         {
             List<clsParametro> lst = new List<clsParametro>();
@@ -87,7 +81,7 @@ namespace CapaLogicaNegocio
             }
             return Mensaje;
         }
-
+        
         public String ActualizarAlumnos()
         {
             List<clsParametro> lst = new List<clsParametro>();
@@ -102,7 +96,7 @@ namespace CapaLogicaNegocio
                 lst.Add(new clsParametro("@Direccion", m_Direccion));
                 lst.Add(new clsParametro("@Mensaje", "", SqlDbType.VarChar, ParameterDirection.Output, 100));
                 M.EjecutarSP("ActualizarAlumnos", ref lst);
-                lst[6].Valor.ToString();
+                Mensaje = lst[6].Valor.ToString();
             }
             catch (Exception ex)
             {

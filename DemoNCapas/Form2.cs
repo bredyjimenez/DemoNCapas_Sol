@@ -59,5 +59,8 @@ namespace DemoNCapas
             MessageBox.Show(Alu.EliminarAlumnos(), "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Limpiar();
         }
+
+        // Revisar porque no muestra el Mensaje al actualizar los datos
+        // Minuto 24.14
     }
 }

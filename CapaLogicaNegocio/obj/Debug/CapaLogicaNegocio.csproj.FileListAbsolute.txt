@@ -6,3 +6,11 @@ D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.CopyComplete
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
 D:\DOCUMENTOS\TODO\LENGUAJES DE PROGRAMACION\PLATAFORMA.NET\C#\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
+F:\DemoNCapas_Sol\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+F:\DemoNCapas_Sol\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+F:\DemoNCapas_Sol\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.dll
+F:\DemoNCapas_Sol\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.pdb
+F:\DemoNCapas_Sol\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csprojAssemblyReference.cache
+F:\DemoNCapas_Sol\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.CopyComplete
+F:\DemoNCapas_Sol\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+F:\DemoNCapas_Sol\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
