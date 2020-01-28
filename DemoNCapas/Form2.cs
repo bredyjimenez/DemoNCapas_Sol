@@ -42,6 +42,38 @@ namespace DemoNCapas
             MessageBox.Show(Alu.ActualizarAlumnos(), "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Limpiar();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Alu.Dni = txtDni.Text;
+            MessageBox.Show(Alu.EliminarAlumnos(), "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Limpiar();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            DataRow row;
+            Alu.Dni = txtDni.Text;
+            dt = Alu.BuscarAlumnos(Alu.Dni);
+            if(dt.Rows.Count == 1)
+            {
+                row = dt.Rows[0];
+                txtApellidos.Text = row[2].ToString();
+                txtNombres.Text = row[3].ToString();
+                if (row[4].ToString() == "M")
+                    rdMasculino.Checked = true;
+                else
+                    rdFemenino.Checked = true;
+                dtpFechaNac.Value = Convert.ToDateTime(row[5].ToString());
+                txtDireccion.Text = row[6].ToString();
+                MessageBox.Show("Registro Encontrado OK...!!!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Registro de Alumno no Existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         private void Limpiar()
         {
             txtDni.Clear();
@@ -52,15 +84,5 @@ namespace DemoNCapas
             txtDireccion.Clear();
             txtDni.Focus();
         }
-
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
-            Alu.Dni = txtDni.Text;
-            MessageBox.Show(Alu.EliminarAlumnos(), "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Limpiar();
-        }
-
-        // Revisar porque no muestra el Mensaje al actualizar los datos
-        // Minuto 24.14
     }
 }

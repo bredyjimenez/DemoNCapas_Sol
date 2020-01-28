@@ -45,16 +45,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(331, 581);
+            this.btnActualizar.Location = new System.Drawing.Point(238, 581);
             this.btnActualizar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(200, 55);
             this.btnActualizar.TabIndex = 33;
-            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.Text = "&Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
@@ -92,12 +93,12 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(103, 581);
+            this.btnRegistrar.Location = new System.Drawing.Point(24, 581);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(200, 55);
             this.btnRegistrar.TabIndex = 29;
-            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.Text = "&Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
@@ -209,20 +210,32 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(560, 581);
+            this.btnEliminar.Location = new System.Drawing.Point(451, 581);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(200, 55);
             this.btnEliminar.TabIndex = 34;
-            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.Text = "&Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(667, 581);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(200, 55);
+            this.btnBuscar.TabIndex = 35;
+            this.btnBuscar.Text = "&Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(893, 680);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dtpFechaNac);
@@ -267,5 +280,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }

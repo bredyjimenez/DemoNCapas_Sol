@@ -75,9 +75,9 @@ namespace CapaLogicaNegocio
                 M.EjecutarSP("RegistrarAlumnos", ref lst);
                 Mensaje = lst[6].Valor.ToString();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
             return Mensaje;
         }
@@ -121,6 +121,22 @@ namespace CapaLogicaNegocio
                 throw ex;
             }
             return Mensaje;
+        }
+
+        public DataTable BuscarAlumnos(String objDni)
+        {
+            DataTable dt = new DataTable();
+            List<clsParametro> lst = new List<clsParametro>();
+            try
+            {
+                lst.Add(new clsParametro("@Dni", objDni));
+                dt = M.Listado("BuscarAlumnos", lst);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dt;
         }
     }
 }
