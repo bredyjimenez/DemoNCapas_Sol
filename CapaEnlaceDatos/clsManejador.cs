@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Clase clsManejador
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,9 @@ namespace CapaEnlaceDatos
 {
     public class clsManejador
     {
+        
         public SqlConnection conexion = new SqlConnection("Server=TEAMLAPTOP90; DataBase=DemoNCapas; Integrated Security = True; User=sa; Password=8852893");
+        //public SqlConnection conexion = new SqlConnection("Server=TEAMLAPTOP90; DataBase=DemoNCapas; Integrated Security = True; User=sa; Password=8852893");
         public void Conectar()
         {
             if (conexion.State == ConnectionState.Closed)

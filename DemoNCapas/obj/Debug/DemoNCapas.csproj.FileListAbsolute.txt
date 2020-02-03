@@ -28,3 +28,18 @@ F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csproj.GenerateResource.cache
 F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csproj.CopyComplete
 F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.exe
 F:\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.pdb
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\bin\Debug\DemoNCapas.exe.config
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\bin\Debug\DemoNCapas.exe
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\bin\Debug\DemoNCapas.pdb
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\bin\Debug\CapaLogicaNegocio.dll
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\bin\Debug\CapaEnlaceDatos.dll
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\bin\Debug\CapaLogicaNegocio.pdb
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\bin\Debug\CapaEnlaceDatos.pdb
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csprojAssemblyReference.cache
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.Form1.resources
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.Form2.resources
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.Properties.Resources.resources
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csproj.GenerateResource.cache
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.csproj.CopyComplete
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.exe
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\DemoNCapas\obj\Debug\DemoNCapas.pdb

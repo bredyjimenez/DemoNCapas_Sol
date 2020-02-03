@@ -8,3 +8,8 @@ F:\DemoNCapas_Sol\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
 F:\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojAssemblyReference.cache
 F:\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
 F:\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.dll
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojAssemblyReference.cache
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
+C:\DATOS\TUTORIALES DE C#\C# capas\DemoNCapas_Sol\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb
